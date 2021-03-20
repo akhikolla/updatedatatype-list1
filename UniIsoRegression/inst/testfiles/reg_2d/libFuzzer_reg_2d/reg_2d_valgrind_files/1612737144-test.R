@@ -1,0 +1,3 @@
+testlist <- list(metric = 0L, vec = NULL, vec = NULL, w_vec = structure(0, .Dim = c(1L,  1L)), y_vec = structure(c(2.64220863350475e-260, 7.37472227947585e+306,  7.29019708259868e-304, 2.60302438036627e-318, 6.78633080642758e-87,  1.39067114958667e-309, 8.29306869153997e-316, 2.55328156224275e-82,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), .Dim = c(3L,  8L)))
+result <- do.call(UniIsoRegression:::reg_2d,testlist)
+str(result)

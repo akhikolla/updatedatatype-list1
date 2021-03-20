@@ -1,0 +1,11 @@
+WARNING: No test specified, defaulting to first test defined (_)
+TRACE: Initialized test input buffer with data from `/home/akhila/fuzzer_packages/fuzzedpackages/NetMix/inst/testfiles/getZ/getZ_output/61e228b2ee15b93c8e2c1bccc789ac10e0208e36.pass`
+TRACE: Running: _ from /home/akhila/fuzzer_packages/fuzzedpackages/NetMix/inst/testfiles/getZ/getZ_DeepState_TestHarness.cpp(13)
+input starts
+Missing value
+EXTERNAL: qs v0.23.5.
+
+pi_mat values:     nan    -inf    -inf     nan    -inf 1.55275e+40
+
+input ends
+TRACE: Passed: _

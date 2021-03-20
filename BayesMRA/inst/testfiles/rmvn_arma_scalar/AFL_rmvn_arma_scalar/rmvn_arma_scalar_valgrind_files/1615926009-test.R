@@ -1,0 +1,3 @@
+testlist <- list(a = 1.06010777792191e-315, b = 0)
+result <- do.call(BayesMRA::rmvn_arma_scalar,testlist)
+str(result)

@@ -1,0 +1,3 @@
+testlist <- list(id = NULL, score = NULL, id = NULL, booklet_id = integer(0),      item_score = integer(0), person_id = c(0L, -14595414L, 906002649L,      -640034343L, -642205512L, 666417152L, 0L, 16L, -14286848L,      0L, 852185L, -1438733632L, 46137343L, -223L, -1426128896L,      0L, 852185L, -1438733632L, 46137343L, 724298528L, 0L, 0L,      0L, 0L, 0L, 0L))
+result <- do.call(dexterMST:::mutate_booklet_score,testlist)
+str(result)

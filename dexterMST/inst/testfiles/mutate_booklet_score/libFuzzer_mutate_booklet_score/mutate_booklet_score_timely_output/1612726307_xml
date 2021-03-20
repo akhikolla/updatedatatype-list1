@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: /usr/lib/R/bin/exec/R --vanilla</line>
+</preamble>
+
+<pid>3714435</pid>
+<ppid>3714434</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind.bin</exe>
+    <arg>--tool=memcheck</arg>
+    <arg>--leak-check=full</arg>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=/home/akhila/fuzzer_packages/fuzzedpackages/dexterMST/inst/testfiles/mutate_booklet_score/libFuzzer_mutate_booklet_score/mutate_booklet_score_timely_output/1612726307_xml</arg>
+  </vargv>
+  <argv>
+    <exe>/usr/lib/R/bin/exec/R</exe>
+    <arg>--vanilla</arg>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.024 </time>
+</status>
+
+<fatal_signal>
+  <tid>1</tid>
+  <signo>1</signo>
+  <signame>SIGHUP</signame>
+  <sicode>0</sicode>
+  <stack>
+    <frame>
+      <ip>0x4E04EA9</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libc-2.31.so</obj>
+      <fn>open</fn>
+      <dir>/build/glibc-ZN95T4/glibc-2.31/io/../sysdeps/unix/sysv/linux</dir>
+      <file>open64.c</file>
+      <line>48</line>
+    </frame>
+    <frame>
+      <ip>0x4D87195</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libc-2.31.so</obj>
+      <fn>_IO_file_open</fn>
+      <dir>/build/glibc-ZN95T4/glibc-2.31/libio</dir>
+      <file>fileops.c</file>
+      <line>189</line>
+    </frame>
+    <frame>
+      <ip>0x4D87459</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libc-2.31.so</obj>
+      <fn>_IO_file_fopen@@GLIBC_2.2.5</fn>
+      <dir>/build/glibc-ZN95T4/glibc-2.31/libio</dir>
+      <file>fileops.c</file>
+      <line>281</line>
+    </frame>
+    <frame>
+      <ip>0x4D79B0D</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libc-2.31.so</obj>
+      <fn>__fopen_internal</fn>
+      <dir>/build/glibc-ZN95T4/glibc-2.31/libio</dir>
+      <file>iofopen.c</file>
+      <line>75</line>
+    </frame>
+    <frame>
+      <ip>0x4D79B0D</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libc-2.31.so</obj>
+      <fn>fopen@@GLIBC_2.2.5</fn>
+      <dir>/build/glibc-ZN95T4/glibc-2.31/libio</dir>
+      <file>iofopen.c</file>
+      <line>86</line>
+    </frame>
+    <frame>
+      <ip>0x4919CCC</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x497A1D0</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x4994DD7</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+      <fn>Rf_eval</fn>
+    </frame>
+    <frame>
+      <ip>0x4996C9E</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x4997B91</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+      <fn>Rf_applyClosure</fn>
+    </frame>
+    <frame>
+      <ip>0x498450D</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x4994DD7</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+      <fn>Rf_eval</fn>
+    </frame>
+    <frame>
+      <ip>0x4996C9E</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+  </stack>
+</fatal_signal>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:14.679 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+

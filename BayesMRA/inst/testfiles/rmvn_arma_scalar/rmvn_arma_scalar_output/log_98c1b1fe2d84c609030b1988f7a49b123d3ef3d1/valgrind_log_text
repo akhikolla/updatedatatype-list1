@@ -1,0 +1,10 @@
+WARNING: No test specified, defaulting to first test defined (_)
+TRACE: Initialized test input buffer with data from `/home/akhila/fuzzer_packages/fuzzedpackages/BayesMRA/inst/testfiles/rmvn_arma_scalar/rmvn_arma_scalar_output/98c1b1fe2d84c609030b1988f7a49b123d3ef3d1.pass`
+TRACE: Running: _ from /home/akhila/fuzzer_packages/fuzzedpackages/BayesMRA/inst/testfiles/rmvn_arma_scalar/rmvn_arma_scalar_DeepState_TestHarness.cpp(13)
+input starts
+EXTERNAL: qs v0.23.5.
+
+a values: 3.16522e+06
+b values: 3.72126e-82
+input ends
+TRACE: Passed: _

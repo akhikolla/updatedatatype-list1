@@ -1,0 +1,3 @@
+testlist <- list(data = structure(0, .Dim = c(1L, 1L)), w = structure(c(NaN,  NaN, 1.38523893523203e-309, 7.27247984397519e+199), .Dim = c(2L,  2L)))
+result <- do.call(UniIsoRegression:::pre_2d_l2_inc,testlist)
+str(result)

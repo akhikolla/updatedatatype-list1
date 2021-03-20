@@ -1,0 +1,3 @@
+testlist <- list(nmod = NULL, id = NULL, score = NULL, rsp = NULL, id = NULL,      score = NULL, nbr = NULL, id = NULL, bk_nmod = integer(0),      booklet_id = integer(0), booklet_score = integer(0), include_rsp = integer(0),      item_id = integer(0), item_score = integer(0), module_nbr = integer(0),      person_id = c(740566052L, 606874624L, 11308L, 774646828L,      741090304L, 741092908L, 741092396L, 606348324L, 2894892L,      741092396L, 741092377L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,      0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,      0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L))
+result <- do.call(dexterMST:::make_booklets_unsafe,testlist)
+str(result)

@@ -1,0 +1,3 @@
+testlist <- list(score = NULL, id = NULL, item_score = c(555819297L, 555819297L,  555819297L, 555819297L, 555819297L, 555819297L, 555819297L, 555819297L,  555819297L, 555819297L, 565951234L, 690705749L, 1431695445L,  1426063360L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L), person_id = integer(0))
+result <- do.call(dexterMST:::im_booklet_score,testlist)
+str(result)

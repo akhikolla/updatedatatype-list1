@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: /usr/lib/R/bin/exec/R --vanilla</line>
+</preamble>
+
+<pid>3463487</pid>
+<ppid>3463486</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind.bin</exe>
+    <arg>--tool=memcheck</arg>
+    <arg>--leak-check=full</arg>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=/home/akhila/fuzzer_packages/fuzzedpackages/dexterMST/inst/testfiles/im_booklet_score/libFuzzer_im_booklet_score/im_booklet_score_timely_output/1612728082_xml</arg>
+  </vargv>
+  <argv>
+    <exe>/usr/lib/R/bin/exec/R</exe>
+    <arg>--vanilla</arg>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.035 </time>
+</status>
+
+<fatal_signal>
+  <tid>1</tid>
+  <signo>1</signo>
+  <signame>SIGHUP</signame>
+  <sicode>0</sicode>
+  <stack>
+    <frame>
+      <ip>0x4961A50</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+      <fn>Rf_mkCharLenCE</fn>
+    </frame>
+    <frame>
+      <ip>0x4A3693C</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x4A3663F</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x4A35EC7</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x4A36DAA</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x4A35EC7</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x4A35EE4</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x4A35EE4</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x4A35EE4</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x4A36BFA</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x4A3657A</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+    <frame>
+      <ip>0x4A3657A</ip>
+      <obj>/usr/lib/R/lib/libR.so</obj>
+    </frame>
+  </stack>
+</fatal_signal>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:19.165 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+

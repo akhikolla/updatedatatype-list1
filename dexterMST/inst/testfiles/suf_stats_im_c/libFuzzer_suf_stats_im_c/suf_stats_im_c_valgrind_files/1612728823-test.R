@@ -1,0 +1,3 @@
+testlist <- list(score = NULL, id = NULL, score = NULL, score = NULL, nit = 0L,      booklet_score = c(0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,      0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,      0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,      0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L), item_id = integer(0),      item_score = integer(0), max_score = 0L)
+result <- do.call(dexterMST:::suf_stats_im_c,testlist)
+str(result)
